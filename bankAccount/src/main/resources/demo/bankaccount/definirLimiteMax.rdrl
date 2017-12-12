@@ -8,5 +8,5 @@ rule "definirLimiteMax"
 	when
 		c : Cliente( salario >= 5000 )
 	then
-		c.setLimite( 10000 );
+		c.setLimite( 4000 );
 end
