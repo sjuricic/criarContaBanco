@@ -1,0 +1,72 @@
+
+<form id="869216809">
+<property name="name" value="AbreConta-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="7" name="holeriteDoc_p" type="Document" id="732674409">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;holerite_t (holeriteDoc_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="holerite_t"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="1" name="cliente_p_limite" type="InputTextInteger" id="296663677">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;limite (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/limite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="cliente_p_email" type="InputText" id="1337867626">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="cliente_p_sobrenome" type="InputText" id="141328824">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sobrenome (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/sobrenome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="cliente_p_salario" type="InputTextInteger" id="1255048779">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;salario (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/salario"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="cliente_p_nome" type="InputText" id="125154963">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nome (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/nome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="rgDoc_p" type="Document" id="357564040">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rg_t (rgDoc_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="rg_t"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="6" name="cliente_p_telefone" type="InputText" id="710256110">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefone (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/telefone"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="cliente_p_rg" type="InputText" id="1889693116">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rg (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/rg"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="cliente_t" name="#BBBBBB" type="dataModelerEntry" outId="" value="demo.bankaccount.Cliente" id="cliente_p"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="holerite_t" value="org.jbpm.document.Document" id="holeriteDoc_p"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="rg_t" value="org.jbpm.document.Document" id="rgDoc_p"/>
+</form>
