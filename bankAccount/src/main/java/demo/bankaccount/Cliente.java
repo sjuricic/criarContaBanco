@@ -22,8 +22,29 @@ public class Cliente implements java.io.Serializable
    @org.kie.api.definition.type.Label("Renda Mensal")
    private Integer salario;
 
-   @org.kie.api.definition.type.Label(value = "Limite")
+   @org.kie.api.definition.type.Label("Limite")
    private java.lang.Integer limite;
+
+   @org.kie.api.definition.type.Label(value = "CEP")
+   private java.lang.String cep;
+
+   @org.kie.api.definition.type.Label(value = "Numero")
+   private java.lang.Integer numero;
+
+   @org.kie.api.definition.type.Label(value = "Complemento")
+   private java.lang.String complemento;
+
+   @org.kie.api.definition.type.Label(value = "Rua")
+   private java.lang.String rua;
+
+   @org.kie.api.definition.type.Label(value = "Bairro")
+   private java.lang.String bairro;
+
+   @org.kie.api.definition.type.Label(value = "Cidade")
+   private java.lang.String cidade;
+
+   @org.kie.api.definition.type.Label(value = "Estado")
+   private java.lang.String estado;
 
    public Cliente()
    {
@@ -99,9 +120,83 @@ public class Cliente implements java.io.Serializable
       this.limite = limite;
    }
 
+   public java.lang.String getCep()
+   {
+      return this.cep;
+   }
+
+   public void setCep(java.lang.String cep)
+   {
+      this.cep = cep;
+   }
+
+   public java.lang.Integer getNumero()
+   {
+      return this.numero;
+   }
+
+   public void setNumero(java.lang.Integer numero)
+   {
+      this.numero = numero;
+   }
+
+   public java.lang.String getComplemento()
+   {
+      return this.complemento;
+   }
+
+   public void setComplemento(java.lang.String complemento)
+   {
+      this.complemento = complemento;
+   }
+
+   public java.lang.String getRua()
+   {
+      return this.rua;
+   }
+
+   public void setRua(java.lang.String rua)
+   {
+      this.rua = rua;
+   }
+
+   public java.lang.String getBairro()
+   {
+      return this.bairro;
+   }
+
+   public void setBairro(java.lang.String bairro)
+   {
+      this.bairro = bairro;
+   }
+
+   public java.lang.String getCidade()
+   {
+      return this.cidade;
+   }
+
+   public void setCidade(java.lang.String cidade)
+   {
+      this.cidade = cidade;
+   }
+
+   public java.lang.String getEstado()
+   {
+      return this.estado;
+   }
+
+   public void setEstado(java.lang.String estado)
+   {
+      this.estado = estado;
+   }
+
    public Cliente(java.lang.String nome, java.lang.String sobrenome,
          java.lang.String rg, java.lang.String email, java.lang.String telefone,
-         java.lang.Integer salario, java.lang.Integer limite)
+         java.lang.Integer salario, java.lang.Integer limite,
+         java.lang.String cep, java.lang.Integer numero,
+         java.lang.String complemento, java.lang.String rua,
+         java.lang.String bairro, java.lang.String cidade,
+         java.lang.String estado)
    {
       this.nome = nome;
       this.sobrenome = sobrenome;
@@ -110,6 +205,13 @@ public class Cliente implements java.io.Serializable
       this.telefone = telefone;
       this.salario = salario;
       this.limite = limite;
+      this.cep = cep;
+      this.numero = numero;
+      this.complemento = complemento;
+      this.rua = rua;
+      this.bairro = bairro;
+      this.cidade = cidade;
+      this.estado = estado;
    }
 
 }
