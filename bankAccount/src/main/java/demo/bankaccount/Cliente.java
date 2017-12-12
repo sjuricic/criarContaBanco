@@ -25,26 +25,29 @@ public class Cliente implements java.io.Serializable
    @org.kie.api.definition.type.Label("Limite")
    private java.lang.Integer limite;
 
-   @org.kie.api.definition.type.Label(value = "CEP")
+   @org.kie.api.definition.type.Label("CEP")
    private java.lang.String cep;
 
-   @org.kie.api.definition.type.Label(value = "Numero")
+   @org.kie.api.definition.type.Label("Numero")
    private java.lang.Integer numero;
 
-   @org.kie.api.definition.type.Label(value = "Complemento")
+   @org.kie.api.definition.type.Label("Complemento")
    private java.lang.String complemento;
 
-   @org.kie.api.definition.type.Label(value = "Rua")
+   @org.kie.api.definition.type.Label("Rua")
    private java.lang.String rua;
 
-   @org.kie.api.definition.type.Label(value = "Bairro")
+   @org.kie.api.definition.type.Label("Bairro")
    private java.lang.String bairro;
 
-   @org.kie.api.definition.type.Label(value = "Cidade")
+   @org.kie.api.definition.type.Label("Cidade")
    private java.lang.String cidade;
 
-   @org.kie.api.definition.type.Label(value = "Estado")
+   @org.kie.api.definition.type.Label("Estado")
    private java.lang.String estado;
+
+   @org.kie.api.definition.type.Label(value = "CPF")
+   private java.lang.String cpf;
 
    public Cliente()
    {
@@ -190,13 +193,23 @@ public class Cliente implements java.io.Serializable
       this.estado = estado;
    }
 
+   public java.lang.String getCpf()
+   {
+      return this.cpf;
+   }
+
+   public void setCpf(java.lang.String cpf)
+   {
+      this.cpf = cpf;
+   }
+
    public Cliente(java.lang.String nome, java.lang.String sobrenome,
          java.lang.String rg, java.lang.String email, java.lang.String telefone,
          java.lang.Integer salario, java.lang.Integer limite,
          java.lang.String cep, java.lang.Integer numero,
          java.lang.String complemento, java.lang.String rua,
          java.lang.String bairro, java.lang.String cidade,
-         java.lang.String estado)
+         java.lang.String estado, java.lang.String cpf)
    {
       this.nome = nome;
       this.sobrenome = sobrenome;
@@ -212,6 +225,7 @@ public class Cliente implements java.io.Serializable
       this.bairro = bairro;
       this.cidade = cidade;
       this.estado = estado;
+      this.cpf = cpf;
    }
 
 }
