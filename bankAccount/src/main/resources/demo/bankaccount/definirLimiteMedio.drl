@@ -1,6 +1,6 @@
 package demo.bankaccount;
 
-rule "definirLimiteMin"
+rule "definirLimiteMedio"
 	dialect "mvel"
 	ruleflow-group "limite"
 	when
@@ -8,5 +8,5 @@ rule "definirLimiteMin"
 	then
 		c.setLimite( 3000 );
     update( c );
-    System.out.println("Regra definirLimiteMin disparada! ");
+    System.out.println("Regra definirLimiteMedio disparada! ");
 end
