@@ -1,0 +1,64 @@
+
+<form id="1171048503">
+<property name="name" value="ConfirmaDados-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="cliente_p_email" type="InputText" id="275186466">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="cliente_p_limite" type="InputTextInteger" id="770668439">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;limite (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/limite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="cliente_p_nome" type="InputText" id="587502647">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nome (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/nome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="cliente_p_rg" type="InputText" id="844417312">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rg (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/rg"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="cliente_p_salario" type="InputTextInteger" id="1506031316">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;salario (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/salario"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="cliente_p_sobrenome" type="InputText" id="60702170">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sobrenome (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/sobrenome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="cliente_p_telefone" type="InputText" id="1444639027">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefone (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_t/telefone"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="dadosOk_p" type="CheckBox" id="1791966953">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dadosOk_t (dadosOk_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="dadosOk_t"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="cliente_t" name="#BBBBBB" type="dataModelerEntry" outId="" value="demo.bankaccount.Cliente" id="cliente_p"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="dadosOk_t" value="java.lang.Boolean" id="dadosOk_p"/>
+</form>
