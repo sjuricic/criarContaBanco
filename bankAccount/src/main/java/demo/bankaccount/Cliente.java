@@ -227,5 +227,9 @@ public class Cliente implements java.io.Serializable
       this.estado = estado;
       this.cpf = cpf;
    }
+   
+   public String toString() {
+        return "Cliente" + this.nome + " limite " + this.limite;
+    }
 
 }
