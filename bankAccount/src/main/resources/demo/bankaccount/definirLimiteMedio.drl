@@ -7,4 +7,6 @@ rule "definirLimiteMin"
 		c : Cliente( salario >=2000 && salario < 5000 )
 	then
 		c.setLimite( 3000 );
+    update( c );
+    System.out.println("Regra definirLimiteMin disparada! ");
 end
