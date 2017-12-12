@@ -6,7 +6,7 @@ rule "definirLimiteMax"
 	dialect "mvel"
 	ruleflow-group "limite"
 	when
-		c : Cliente( salario > 5000 && limite != null )
+		c : Cliente( salario > 5000 && limite == null )
 	then
 		modify( c ) {
 				setLimite( 4000 )
