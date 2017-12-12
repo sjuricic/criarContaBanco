@@ -4,7 +4,7 @@ rule "definirLimiteMedio"
 	dialect "mvel"
 	ruleflow-group "limite"
 	when
-		c : Cliente( salario >=2000 && salario < 5000 && limite != null)
+		c : Cliente( salario >=2000 && salario < 5000 && limite == null)
 	then
 		
        modify( c ){
