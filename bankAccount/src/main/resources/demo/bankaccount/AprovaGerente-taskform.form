@@ -3,131 +3,91 @@
 <property name="name" value="AprovaGerente-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="8" name="cliente_p_nome" type="InputText" id="1458400815">
+<field position="3" name="cliente_p_cpf" type="InputText" id="1906073704">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;nome (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/nome"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="cliente_p_limite" type="InputTextInteger" id="763504193">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;limite (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/limite"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="13" name="cliente_p_sobrenome" type="InputText" id="660579324">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;sobrenome (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/sobrenome"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="cliente_p_bairro" type="InputText" id="1163360529">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;bairro (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/bairro"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="cliente_p_numero" type="InputTextInteger" id="1431600531">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;numero (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/numero"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="16" name="holeriteDoc_p" type="Document" id="1376575307">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;holerite_t (holeriteDoc_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="holerite_t"/>
-<property name="fieldClass" value="org.jbpm.document.Document"/>
-</field>
-<field position="17" name="rgDoc_p" type="Document" id="446430961">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;rg_t (rgDoc_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="rg_t"/>
-<property name="fieldClass" value="org.jbpm.document.Document"/>
-</field>
-<field position="12" name="cliente_p_salario" type="InputTextInteger" id="1307421830">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;salario (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/salario"/>
-<property name="fieldClass" value="java.lang.Integer"/>
-</field>
-<field position="2" name="cliente_p_cidade" type="InputText" id="751145739">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;cidade (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/cidade"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="cliente_p_cep" type="InputText" id="727916530">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;cep (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/cep"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="14" name="cliente_p_telefone" type="InputText" id="765070761">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;telefone (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/telefone"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="4" name="cliente_p_cpf" type="InputText" id="1906073704">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;cpf (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;CPF:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="cliente_t/cpf"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="cliente_p_complemento" type="InputText" id="1387660353">
+<field position="0" name="cliente_p_nome" type="InputText" id="1458400815">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;complemento (cliente_p)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Nome:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/complemento"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="cliente_t/nome"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="cliente_p_rg" type="InputText" id="1724302846">
+<field position="2" name="cliente_p_rg" type="InputText" id="1724302846">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;rg (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;RG:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="cliente_t/rg"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="cliente_p_email" type="InputText" id="696123716">
+<field position="5" name="cliente_p_salario" type="InputTextInteger" id="1307421830">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;email (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/email"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Salário:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="cliente_t/salario"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="cliente_p_sobrenome" type="InputText" id="660579324">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Sobrenome:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="cliente_t/sobrenome"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="15" name="gerenteOk_p" type="CheckBox" id="734523932">
+<field position="7" name="gerenteOk_p" type="CheckBox" id="734523932">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;gerente_t (gerenteOk_p)quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Os dados estão corretos?quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="gerente_t"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="6" name="cliente_p_estado" type="InputText" id="994876721">
+<field position="6" name="holeriteDoc_p" type="Document" id="1376575307">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;estado (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/estado"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Holerite:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="holerite_t"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<field position="11" name="cliente_p_rua" type="InputText" id="430451510">
+<field position="4" name="rgDoc_p" type="Document" id="446430961">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;rua (cliente_p)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="cliente_t/rua"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;RG:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="rg_t"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
 <dataHolder inputId="cliente_t" name="#BBBBBB" type="dataModelerEntry" outId="" value="demo.bankaccount.Cliente" id="cliente_p"/>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="gerente_t" value="java.lang.Boolean" id="gerenteOk_p"/>
