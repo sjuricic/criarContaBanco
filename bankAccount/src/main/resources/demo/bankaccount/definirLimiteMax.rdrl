@@ -11,4 +11,5 @@ rule "definirLimiteMax"
 		modify( c ) {
 				setLimite( 4000 )
 		}
+		System.out.println("Regra definirLimiteMax disparada! ");
 end
