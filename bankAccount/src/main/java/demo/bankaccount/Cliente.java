@@ -22,6 +22,9 @@ public class Cliente implements java.io.Serializable
    @org.kie.api.definition.type.Label("Renda Mensal")
    private Integer salario;
 
+   @org.kie.api.definition.type.Label(value = "Limite")
+   private java.lang.Integer limite;
+
    public Cliente()
    {
    }
@@ -86,9 +89,19 @@ public class Cliente implements java.io.Serializable
       this.salario = salario;
    }
 
+   public java.lang.Integer getLimite()
+   {
+      return this.limite;
+   }
+
+   public void setLimite(java.lang.Integer limite)
+   {
+      this.limite = limite;
+   }
+
    public Cliente(java.lang.String nome, java.lang.String sobrenome,
          java.lang.String rg, java.lang.String email, java.lang.String telefone,
-         java.lang.Integer salario)
+         java.lang.Integer salario, java.lang.Integer limite)
    {
       this.nome = nome;
       this.sobrenome = sobrenome;
@@ -96,6 +109,7 @@ public class Cliente implements java.io.Serializable
       this.email = email;
       this.telefone = telefone;
       this.salario = salario;
+      this.limite = limite;
    }
 
 }
