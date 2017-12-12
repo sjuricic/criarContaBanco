@@ -6,8 +6,7 @@ rule "definirLimiteMedio"
 	when
 		c : Cliente( salario >=2000 && salario < 5000 && limite == null)
 	then
-       modify( c ){
-           c.setLimite( 3000 )
-       }
+	    c.setLimite( 3000 );
+       update( c )
     System.out.println("Regra definirLimiteMedio disparada! ");
 end
