@@ -2,7 +2,7 @@ package demo.bankaccount;
 
 import java.lang.Number;
 
-rule "definirLimite"
+rule "definirLimiteMax"
 	dialect "mvel"
 	ruleflow-group "limite"
 	when
