@@ -1,0 +1,143 @@
+
+<form id="489329843">
+<property name="name" value="AbreConta-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="cliente_p_bairro" type="InputText" id="1421604826">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bairro (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/bairro"/>
+<property name="outputBinding" value="cliente_out/bairro"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="cliente_p_rg" type="InputText" id="1199883045">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rg (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/rg"/>
+<property name="outputBinding" value="cliente_out/rg"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="holeriteDoc_p" type="Document" id="1565883031">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;holerite_t (holeriteDoc_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="holerite_t"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="4" name="cliente_p_cpf" type="InputText" id="838091639">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpf (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/cpf"/>
+<property name="outputBinding" value="cliente_out/cpf"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="cliente_p_estado" type="InputText" id="944592974">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estado (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/estado"/>
+<property name="outputBinding" value="cliente_out/estado"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="cliente_p_salario" type="InputTextInteger" id="1953307342">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;salario (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/salario"/>
+<property name="outputBinding" value="cliente_out/salario"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="cliente_p_limite" type="InputTextInteger" id="1955893169">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;limite (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/limite"/>
+<property name="outputBinding" value="cliente_out/limite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="cliente_p_complemento" type="InputText" id="887300616">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;complemento (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/complemento"/>
+<property name="outputBinding" value="cliente_out/complemento"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="cliente_p_cep" type="InputText" id="516799072">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cep (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/cep"/>
+<property name="outputBinding" value="cliente_out/cep"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="cliente_p_cidade" type="InputText" id="1554865347">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cidade (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/cidade"/>
+<property name="outputBinding" value="cliente_out/cidade"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="cliente_p_email" type="InputText" id="1614686796">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/email"/>
+<property name="outputBinding" value="cliente_out/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="cliente_p_nome" type="InputText" id="924762412">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nome (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/nome"/>
+<property name="outputBinding" value="cliente_out/nome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="cliente_p_rua" type="InputText" id="1228850861">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rua (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/rua"/>
+<property name="outputBinding" value="cliente_out/rua"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="cliente_p_numero" type="InputTextInteger" id="1381306540">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numero (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/numero"/>
+<property name="outputBinding" value="cliente_out/numero"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="16" name="rgDoc_p" type="Document" id="188252577">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rg_t (rgDoc_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="rg_t"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="14" name="cliente_p_telefone" type="InputText" id="1646529567">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefone (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/telefone"/>
+<property name="outputBinding" value="cliente_out/telefone"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="cliente_p_sobrenome" type="InputText" id="1283502461">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sobrenome (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente_in/sobrenome"/>
+<property name="outputBinding" value="cliente_out/sobrenome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="cliente_in" name="#FF54A7" type="dataModelerEntry" outId="cliente_out" value="demo.bankaccount.Cliente" id="cliente_p"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="holerite_t" value="org.jbpm.document.Document" id="holeriteDoc_p"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="rg_t" value="org.jbpm.document.Document" id="rgDoc_p"/>
+</form>
