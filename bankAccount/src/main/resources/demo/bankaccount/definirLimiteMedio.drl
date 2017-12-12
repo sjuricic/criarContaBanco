@@ -4,7 +4,7 @@ rule "definirLimiteMin"
 	dialect "mvel"
 	ruleflow-group "limite"
 	when
-		c : Cliente( salario < 5000 )
+		c : Cliente( salario >=2000 && salario < 5000 )
 	then
-		c.setLimite( 7000 );
+		c.setLimite( 3000 );
 end
