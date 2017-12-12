@@ -1,2 +1,10 @@
 package demo.bankaccount;
 
+rule "definirLimiteMin"
+	dialect "mvel"
+	ruleflow-group "limite"
+	when
+		c : Cliente( salario < 5000 )
+	then
+		c.setLimite( 7000 );
+end
