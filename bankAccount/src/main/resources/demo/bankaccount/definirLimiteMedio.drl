@@ -4,9 +4,11 @@ rule "definirLimiteMedio"
 	dialect "mvel"
 	ruleflow-group "limite"
 	when
-		c : Cliente( salario >=2000 && salario < 5000 )
+		c : Cliente( salario >=2000 && salario < 5000 && limite != null)
 	then
-		c.setLimite( 3000 );
-    update( c );
+		
+       modify( c ){
+           c.setLimite( 3000 );
+       }
     System.out.println("Regra definirLimiteMedio disparada! ");
 end
