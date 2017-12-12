@@ -1,0 +1,184 @@
+
+<form id="2013466177">
+<property name="name" value="bankAccount.createBankAccount-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="9" name="cliente_p_nome" type="InputText" id="770803057">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nome (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/nome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="cliente_p_bairro" type="InputText" id="1962489176">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bairro (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/bairro"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="23" name="serasaOk_p" type="CheckBox" id="37210870">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;serasaOk_p (serasaOk_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="serasaOk_p"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="14" name="cliente_p_sobrenome" type="InputText" id="1208632591">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sobrenome (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/sobrenome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="cpfExiste_p" type="CheckBox" id="1585063839">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpfExiste_p (cpfExiste_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cpfExiste_p"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="22" name="rgDoc_p" type="Document" id="615904528">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rgDoc_p (rgDoc_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="rgDoc_p"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="0" name="agencia_p" type="InputTextInteger" id="97059471">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;agencia_p (agencia_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="agencia_p"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="cliente_p_complemento" type="InputText" id="967652843">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;complemento (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/complemento"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="dadosOk_p" type="CheckBox" id="575898261">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dadosOk_p (dadosOk_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="dadosOk_p"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="21" name="numeroConta_p" type="InputTextInteger" id="1591383059">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numeroConta_p (numeroConta_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="numeroConta_p"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="cliente_p_estado" type="InputText" id="2041314305">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estado (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/estado"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="cliente_p_cpf" type="InputText" id="2125741912">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpf (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/cpf"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="cliente_p_numero" type="InputTextInteger" id="765800616">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numero (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/numero"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="cliente_p_limite" type="InputTextInteger" id="1429682072">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;limite (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/limite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="20" name="holeriteDoc_p" type="Document" id="506980007">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;holeriteDoc_p (holeriteDoc_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="holeriteDoc_p"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<field position="11" name="cliente_p_rg" type="InputText" id="233797756">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rg (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/rg"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="gerenteOk_p" type="CheckBox" id="976936334">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gerenteOk_p (gerenteOk_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="gerenteOk_p"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="cliente_p_email" type="InputText" id="595977491">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;email (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/email"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="cliente_p_rua" type="InputText" id="167275311">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rua (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/rua"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="cliente_p_cidade" type="InputText" id="245585882">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cidade (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/cidade"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="cliente_p_telefone" type="InputText" id="1919833207">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefone (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/telefone"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="cliente_p_cep" type="InputText" id="2049361949">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cep (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/cep"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="cpf_p" type="InputText" id="1907612207">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpf_p (cpf_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cpf_p"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="cliente_p_salario" type="InputTextInteger" id="731028239">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;salario (cliente_p)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="cliente_p/salario"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="agencia_p" value="java.lang.Integer" id="agencia_p"/>
+<dataHolder inputId="" name="#BBBBBB" type="dataModelerEntry" outId="cliente_p" value="demo.bankaccount.Cliente" id="cliente_p"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="cpfExiste_p" value="java.lang.Boolean" id="cpfExiste_p"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="cpf_p" value="java.lang.String" id="cpf_p"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="dadosOk_p" value="java.lang.Boolean" id="dadosOk_p"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="gerenteOk_p" value="java.lang.Boolean" id="gerenteOk_p"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="holeriteDoc_p" value="org.jbpm.document.Document" id="holeriteDoc_p"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="numeroConta_p" value="java.lang.Integer" id="numeroConta_p"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="rgDoc_p" value="org.jbpm.document.Document" id="rgDoc_p"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="serasaOk_p" value="java.lang.Boolean" id="serasaOk_p"/>
+</form>
