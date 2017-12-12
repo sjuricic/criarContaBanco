@@ -9,18 +9,18 @@ public class Cliente implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Nome")
+   @org.kie.api.definition.type.Label("Nome")
    private java.lang.String nome;
-   @org.kie.api.definition.type.Label(value = "Sobrenome")
+   @org.kie.api.definition.type.Label("Sobrenome")
    private java.lang.String sobrenome;
-   @org.kie.api.definition.type.Label(value = "RG")
+   @org.kie.api.definition.type.Label("RG")
    private java.lang.String rg;
-   @org.kie.api.definition.type.Label(value = "Email")
+   @org.kie.api.definition.type.Label("Email")
    private java.lang.String email;
-   @org.kie.api.definition.type.Label(value = "Telefone")
+   @org.kie.api.definition.type.Label("Telefone")
    private java.lang.String telefone;
-   @org.kie.api.definition.type.Label(value = "Renda Mensal")
-   private java.lang.String salario;
+   @org.kie.api.definition.type.Label("Renda Mensal")
+   private Integer salario;
 
    public Cliente()
    {
@@ -76,19 +76,19 @@ public class Cliente implements java.io.Serializable
       this.telefone = telefone;
    }
 
-   public java.lang.String getSalario()
+   public java.lang.Integer getSalario()
    {
       return this.salario;
    }
 
-   public void setSalario(java.lang.String salario)
+   public void setSalario(java.lang.Integer salario)
    {
       this.salario = salario;
    }
 
    public Cliente(java.lang.String nome, java.lang.String sobrenome,
-         java.lang.String rg, java.lang.String email,
-         java.lang.String telefone, java.lang.String salario)
+         java.lang.String rg, java.lang.String email, java.lang.String telefone,
+         java.lang.Integer salario)
    {
       this.nome = nome;
       this.sobrenome = sobrenome;
