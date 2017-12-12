@@ -1,0 +1,9 @@
+package demo.bankaccount;
+
+import java.lang.Number;
+
+rule "definirLimite"
+	dialect "mvel"
+	when
+	then
+end
