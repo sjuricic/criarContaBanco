@@ -56,6 +56,20 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+    [
+    "name" : "Parser",
+    "parameters" : [
+        "FORMAT" : new StringDataType(),
+        "INPUT" : new ObjectDataType(),
+        "TYPE" : new StringDataType()
+    ],
+    "results" : [
+        "RESULT" : new ObjectDataType(),
+    ],
+    "displayName" : "Parser",
+    "icon" : "defaultservicenodeicon.png"
   ]
 
 ]
