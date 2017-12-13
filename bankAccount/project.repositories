@@ -3,6 +3,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>local</id>
+        <url>/home/ajuricic/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>jboss-earlyaccess-plugin-repository</id>
         <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
         <source>SETTINGS</source>
@@ -27,9 +35,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/home/ajuricic/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>jboss-earlyaccess-repository</id>
+        <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>redhat-engineering-repository1</id>
+        <url>http://download-node-02.eng.bos.redhat.com/brewroot/repos/jb-ip-6.1-build/latest/maven/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -46,22 +62,6 @@
         <id>guvnor-m2-repo</id>
         <url>http://localhost:8080/business-central/maven2/</url>
         <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>redhat-engineering-repository1</id>
-        <url>http://download-node-02.eng.bos.redhat.com/brewroot/repos/jb-ip-6.1-build/latest/maven/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-earlyaccess-repository</id>
-        <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
-        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
