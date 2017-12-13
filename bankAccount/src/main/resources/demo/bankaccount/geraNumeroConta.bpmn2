@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_ss0x0N-WEee-lLG9nzbc3A" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_S6-dAN-ZEee-lLG9nzbc3A" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
   <bpmn2:itemDefinition id="_conta_sItem" structureRef="Integer"/>
   <bpmn2:itemDefinition id="_agencia_sItem" structureRef="Integer"/>
   <bpmn2:process id="bankAccount.geraNumeroConta" drools:packageName="org.jbpm" drools:version="1.0" name="geraNumeroConta" isExecutable="true">
@@ -26,14 +26,14 @@
 Integer x = random.nextInt(101);
 Integer y = random.nextInt(10001);
 
-System.out.println("agencia "+x);
-System.out.println("conta "+y);
+//System.out.println("agencia "+x);
+//System.out.println("conta "+y);
 
 kcontext.setVariable("agencia_s",x);
 kcontext.setVariable("conta_s",y);
 
-System.out.println("agencia "+kcontext.getVariable("agencia_s"));
-System.out.println("conta "+kcontext.getVariable("conta_s"));
+//System.out.println("agencia "+kcontext.getVariable("agencia_s"));
+//System.out.println("conta "+kcontext.getVariable("conta_s"));
 ]]></bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:sequenceFlow id="_1945AFC1-AA2B-4726-AC22-4237B18CED42" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="processStartEvent" targetRef="_E49A4F48-C1EC-4E8B-B341-5E427827AD33"/>
@@ -47,33 +47,33 @@ System.out.println("conta "+kcontext.getVariable("conta_s"));
     </bpmn2:endEvent>
     <bpmn2:sequenceFlow id="_3E845A89-D572-4280-9DA0-C3CF4A173D82" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_E49A4F48-C1EC-4E8B-B341-5E427827AD33" targetRef="_A51CBADB-0F27-4EBF-B000-9C30635692D6"/>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_ss1Y4N-WEee-lLG9nzbc3A">
-    <bpmndi:BPMNPlane id="_ss1Y4d-WEee-lLG9nzbc3A" bpmnElement="bankAccount.geraNumeroConta">
-      <bpmndi:BPMNShape id="_ss1Y4t-WEee-lLG9nzbc3A" bpmnElement="processStartEvent">
+  <bpmndi:BPMNDiagram id="_S6-dAd-ZEee-lLG9nzbc3A">
+    <bpmndi:BPMNPlane id="_S6-dAt-ZEee-lLG9nzbc3A" bpmnElement="bankAccount.geraNumeroConta">
+      <bpmndi:BPMNShape id="_S6-dA9-ZEee-lLG9nzbc3A" bpmnElement="processStartEvent">
         <dc:Bounds height="30.0" width="30.0" x="120.0" y="120.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_ss1Y49-WEee-lLG9nzbc3A" bpmnElement="_E49A4F48-C1EC-4E8B-B341-5E427827AD33">
+      <bpmndi:BPMNShape id="_S6-dBN-ZEee-lLG9nzbc3A" bpmnElement="_E49A4F48-C1EC-4E8B-B341-5E427827AD33">
         <dc:Bounds height="80.0" width="100.0" x="195.0" y="95.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_ss1Y5N-WEee-lLG9nzbc3A" bpmnElement="_A51CBADB-0F27-4EBF-B000-9C30635692D6">
+      <bpmndi:BPMNShape id="_S6-dBd-ZEee-lLG9nzbc3A" bpmnElement="_A51CBADB-0F27-4EBF-B000-9C30635692D6">
         <dc:Bounds height="28.0" width="28.0" x="340.0" y="121.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_ss1Y5d-WEee-lLG9nzbc3A" bpmnElement="_1945AFC1-AA2B-4726-AC22-4237B18CED42" sourceElement="_ss1Y4t-WEee-lLG9nzbc3A" targetElement="_ss1Y49-WEee-lLG9nzbc3A">
+      <bpmndi:BPMNEdge id="_S6-dBt-ZEee-lLG9nzbc3A" bpmnElement="_1945AFC1-AA2B-4726-AC22-4237B18CED42" sourceElement="_S6-dA9-ZEee-lLG9nzbc3A" targetElement="_S6-dBN-ZEee-lLG9nzbc3A">
         <di:waypoint xsi:type="dc:Point" x="135.0" y="135.0"/>
         <di:waypoint xsi:type="dc:Point" x="245.0" y="135.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_ss1Y5t-WEee-lLG9nzbc3A" bpmnElement="_3E845A89-D572-4280-9DA0-C3CF4A173D82" sourceElement="_ss1Y49-WEee-lLG9nzbc3A" targetElement="_ss1Y5N-WEee-lLG9nzbc3A">
+      <bpmndi:BPMNEdge id="_S6-dB9-ZEee-lLG9nzbc3A" bpmnElement="_3E845A89-D572-4280-9DA0-C3CF4A173D82" sourceElement="_S6-dBN-ZEee-lLG9nzbc3A" targetElement="_S6-dBd-ZEee-lLG9nzbc3A">
         <di:waypoint xsi:type="dc:Point" x="245.0" y="135.0"/>
         <di:waypoint xsi:type="dc:Point" x="354.0" y="135.0"/>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_ss1Y59-WEee-lLG9nzbc3A" type="BPSimData">
+  <bpmn2:relationship id="_S6-dCN-ZEee-lLG9nzbc3A" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters" baseTimeUnit="min"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_E49A4F48-C1EC-4E8B-B341-5E427827AD33" id="_ss1Y6N-WEee-lLG9nzbc3A">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_E49A4F48-C1EC-4E8B-B341-5E427827AD33" id="_S6-dCd-ZEee-lLG9nzbc3A">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -85,28 +85,28 @@ System.out.println("conta "+kcontext.getVariable("conta_s"));
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_A51CBADB-0F27-4EBF-B000-9C30635692D6" id="_ss1Y6d-WEee-lLG9nzbc3A">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_A51CBADB-0F27-4EBF-B000-9C30635692D6" id="_S6-dCt-ZEee-lLG9nzbc3A">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
               </bpsim:ProcessingTime>
             </bpsim:TimeParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_3E845A89-D572-4280-9DA0-C3CF4A173D82" id="_ss1Y6t-WEee-lLG9nzbc3A">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_3E845A89-D572-4280-9DA0-C3CF4A173D82" id="_S6-dC9-ZEee-lLG9nzbc3A">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_1945AFC1-AA2B-4726-AC22-4237B18CED42" id="_ss1Y69-WEee-lLG9nzbc3A">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_1945AFC1-AA2B-4726-AC22-4237B18CED42" id="_S6-dDN-ZEee-lLG9nzbc3A">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_ss1Y7N-WEee-lLG9nzbc3A">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_S6-dDd-ZEee-lLG9nzbc3A">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -121,7 +121,7 @@ System.out.println("conta "+kcontext.getVariable("conta_s"));
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_ss0x0N-WEee-lLG9nzbc3A</bpmn2:source>
-    <bpmn2:target>_ss0x0N-WEee-lLG9nzbc3A</bpmn2:target>
+    <bpmn2:source>_S6-dAN-ZEee-lLG9nzbc3A</bpmn2:source>
+    <bpmn2:target>_S6-dAN-ZEee-lLG9nzbc3A</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
