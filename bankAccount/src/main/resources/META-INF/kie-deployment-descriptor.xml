@@ -48,7 +48,7 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new com.redhat.gss.jbpm.parser.Parser(classloader)</identifier>
+            <identifier>new org.jbpm.process.workitem.parser.Parser(classloader)</identifier>
             <parameters/>
             <name>Parser</name>
         </work-item-handler>
