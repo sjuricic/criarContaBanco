@@ -8,5 +8,5 @@ rule "definirLimiteMedio"
 	then
 	    c.setLimite( 3000 );
        update( c )
-    System.out.println("Regra definirLimiteMedio disparada! ");
+    System.out.println("Rule " + drools.getRule().getName() + " fired!");
 end
